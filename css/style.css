@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+html {
+ /* overflow-x: hidden; */
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+/* Links */
+
+.animasi {
+    animation-duration: 1.5s;
+}
+
+.animasi2 {
+    animation-duration: 2s;
+}
+
+.animasi3 {
+    animation-duration: 2.5s;
+}
+
+.animasi4 {
+    animation-duration: 3s;
+}
+
+
+.border-grid {
+    border-bottom: #cdcdcd medium solid;
+    min-height: 10vh;
+    padding: 10px 0;
+}
+
+/*
+.images {
+  position: relative;
+  display: inline-block;
+  padding: 10px 0;
+  margin: 10px;
+}*/
+
+/* W3 */
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* slideshow */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
